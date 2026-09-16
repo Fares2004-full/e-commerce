@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment variables (secrets — never commit)
+.env
+.env.*
+!.env.example
+
+# Logs — keep the folder tracked, ignore the generated files inside it
+logs/*.log
+!logs/.gitkeep
+
+# npm
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Build/test output (none yet, but harmless to have ready)
+coverage/
+dist/
+build/
